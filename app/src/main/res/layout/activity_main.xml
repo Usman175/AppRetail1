@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usman.appretail.MainActivity">
+
+    <TextView
+        android:id="@+id/tvemal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Catagory"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+
+    <LinearLayout
+        android:id="@+id/gridGroup"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:orientation="vertical"
+        ></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cartGroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="#7F7FFF"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+
+        android:text="Welcome to Admin Panel"
+        />
+
+    <TextView
+        android:id="@+id/tvCatag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:background="#D4D4FF"
+        android:textColor="#0F0F0F"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:text="Add Catagory" />
+
+    <Button
+        android:id="@+id/btnCatag"
+        android:onClick="btnCatag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCatag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="ADD CATAGORY" />
+
+    <TextView
+        android:id="@+id/tvList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnCatag"
+        android:layout_marginTop="11dp"
+        android:background="#D4D4FF"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Add Items"
+        android:textAlignment="center"
+        android:textColor="#0F0F0F"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnList"
+        android:layout_below="@+id/tvList"
+        android:layout_centerHorizontal="true"
+        android:text="Add Item" />
+
+    <!--<Button
+        android:id="@+id/btnDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/btnList"
+        android:layout_centerHorizontal="true"
+        android:text="Show Db" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:id="@+id/cat_group"
+        android:layout_below="@id/btnList"
+        android:orientation="vertical"></LinearLayout>
+</RelativeLayout>
